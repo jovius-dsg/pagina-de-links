@@ -1,0 +1,114 @@
+:root {
+    font-family: Montserrat, sans-serif;
+    background-image: url(/images/bg-abstrato-grunge-47dc536a.png);
+    background-size: cover;
+    background-position: 0%;
+    background-position-x: -200px;
+  }
+  
+  body {
+    margin: 0;
+    display: row;
+    align-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  #profile-image {
+    border-radius: 100px;
+    border-style: hidden;
+    border-color: #000;
+  }
+  
+  #txt {
+    margin: 0;
+    padding: 0;
+    color: #ededed;
+  }
+  
+  #button {
+    width: 360px;
+    height: 4em;
+    margin: .8em;
+    color: #d9d9d9;
+    border-radius: 60px;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: large;
+  }
+  
+  #buttons {
+    display: inline-grid;
+    place-items: center;
+  }
+  
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: medium;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #center {
+    align-items: center;
+  }
+  
+  #menu-icon {
+    color-scheme: #ededed;
+  }
+  
+  #menu {
+    padding-top: 2rem;
+    padding-left: 20rem;
+    margin: 0;
+  }
+  
+  #app0 {
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #app {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #app2 {
+    text-align: center;
+    padding: 0;
+  }
+  
+  #icons {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #icon {
+    margin: .5rem;
+  }
+  
+  @media screen and (min-width: 800px) {
+    :root {
+      font-family: Montserrat, sans-serif;
+      background-image: url(/images/bg-abstrato-grunge-47dc536a.png);
+      background-size: cover;
+      background-position: 0%;
+      background-position-x: 0;
+    }
+  
+    #menu {
+      padding-top: 2rem;
+      padding-left: 60rem;
+      margin: 0;
+    }
+  }
